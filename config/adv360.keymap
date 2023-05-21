@@ -63,7 +63,7 @@
  &trans              &tog 4   &to 0  &trans  &trans  &trans             &none                                                   &none          &trans          &trans        &trans           &trans   &trans  &kp F12
  &trans              &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &trans   &trans
  &trans              &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none          &trans          &trans        &trans           &trans   &trans   &trans
- &trans  &kp LA(LC(LS(LG)))  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans   &trans   &trans
+ &trans  &sk LA(LS(LG(LC)))  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans   &trans   &trans
             >;
         };
 
