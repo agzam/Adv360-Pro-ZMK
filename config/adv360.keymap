@@ -18,6 +18,9 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define HYP LS(LC(LA(LGUI)))
+#define HYPER(key) LS(LC(LA(LG(key))))
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -43,7 +46,7 @@
    &kp TAB      &kp Q      &kp W     &kp E      &kp R   &kp T                &none                                                                                         &none   &kp Y             &kp U              &kp I         &kp O           &kp P   &kp BSLH
  &kp LCTRL      &kp A      &kp S     &kp D      &kp F   &kp G            &kp EQUAL  &kp LEFT_COMMAND       &kp LALT   &none   &none      &kp RCTRL  &kp RIGHT_COMMAND    &kp TAB   &kp H             &kp J              &kp K         &kp L        &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z      &kp X     &kp C      &kp V   &kp B                &none             &none  &kp LA(SLASH)   &none   &none        &kp TAB              &none      &none   &kp N             &kp M          &kp COMMA       &kp DOT        &kp FSLH  &kp RSHFT
-     &mo 2  &kp EQUAL  &kp TILDE  &kp LEFT  &kp RIGHT                      &kp ESC     &kp BACKSPACE   &kp LEFT_ALT                  &kp RIGHT_ALT          &kp ENTER  &kp SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp DOWN_ARROW      &mo 2
+     &mo 2  &kp EQUAL  &kp TILDE  &kp LEFT  &kp RIGHT                      &mt HYP ESC     &kp BACKSPACE   &kp LEFT_ALT                  &kp RIGHT_ALT          &kp ENTER  &kp SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UP_ARROW  &kp DOWN_ARROW      &mo 2
             >;
         };
 
