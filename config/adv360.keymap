@@ -64,7 +64,7 @@
  &trans  &tog 4   &to 0  &trans  &trans  &trans                &none                                                              &none  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp MINUS   &kp PLUS     &trans  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans                &none   &trans  &trans                  &trans  &trans  &kp SINGLE_QUOTE               &kp LEFT              &kp DOWN     &kp UP  &kp RIGHT     &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                &trans                  &trans                                &kp DOUBLE_QUOTES             &kp GRAVE  &kp UNDER  &kp EQUAL  &kp COMMA   &trans
-  &none  &trans  &trans  &trans  &trans                    &kp SPACE  &kp DEL  &trans                  &trans  &trans            &trans                                       &trans     &trans     &trans     &trans    &to 2
+ &trans  &trans  &trans  &trans  &trans                    &kp SPACE  &kp DEL  &trans                  &trans  &trans            &trans                                       &trans     &trans     &trans     &trans   &tog 2
             >;
         };
 
