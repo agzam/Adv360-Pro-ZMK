@@ -44,7 +44,7 @@
         &kp TAB      &kp Q      &kp W           &kp E            &kp R   &kp T            &sk LC(LA(LS(LCMD)))                                                                                     &none   &kp Y             &kp U              &kp I    &kp O          &kp P         &kp BSLH
       &kp LCTRL      &kp A      &kp S           &kp D            &kp F   &kp G                           &none  &kp LEFT_COMMAND       &kp LALT                  &kp RIGHT_CONTROL   &kp RCMD      &none   &kp H             &kp J              &kp K    &kp L  &kp SEMICOLON          &kp SQT
  &kp LEFT_SHIFT      &kp Z      &kp X           &kp C            &kp V   &kp B                                                    &kp LA(SLASH)                            &kp TAB                         &kp N             &kp M          &kp COMMA  &kp DOT      &kp SLASH  &kp RIGHT_SHIFT
-          &mo 2  &kp EQUAL  &kp TILDE  &kp LEFT_ARROW  &kp RIGHT_ARROW                              &kp ESCAPE     &kp BACKSPACE   &kp LEFT_ALT                      &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp UP       &kp DOWN            &none
+          &mo 2  &kp EQUAL  &kp TILDE  &kp LEFT_ARROW  &kp RIGHT_ARROW                              &kp ESCAPE     &kp BACKSPACE   &kp LEFT_ALT                      &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp UP       &kp DOWN           &tog 2
             >;
         };
 
@@ -64,7 +64,7 @@
  &trans  &tog 4   &to 0  &trans  &trans  &trans                &none                                                              &none  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp MINUS   &kp PLUS     &trans  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans                &none   &trans  &trans                  &trans  &trans  &kp SINGLE_QUOTE               &kp LEFT              &kp DOWN     &kp UP  &kp RIGHT     &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                &trans                  &trans                                &kp DOUBLE_QUOTES             &kp GRAVE  &kp UNDER  &kp EQUAL  &kp COMMA   &trans
-  &none  &trans  &trans  &trans  &trans                    &kp SPACE  &kp DEL  &trans                  &trans  &trans            &trans                                       &trans     &trans     &trans     &trans   &tog 2
+  &none  &trans  &trans  &trans  &trans                    &kp SPACE  &kp DEL  &trans                  &trans  &trans            &trans                                       &trans     &trans     &trans     &trans    &none
             >;
         };
 
