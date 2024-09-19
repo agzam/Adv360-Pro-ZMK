@@ -32,6 +32,14 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+
+    mo_tog: mod_morph {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MO_TOG";
+        #binding-cells = <0>;
+        bindings = <&mo 2>, <&tog 2>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
   };
 
     keymap {
