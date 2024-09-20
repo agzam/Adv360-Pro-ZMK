@@ -33,15 +33,6 @@
         bindings = <&kp>, <&kp>;
     };
 
-    mo_tog: behavior_mo_tog {
-        compatible = "zmk,behavior-hold-tap";
-        label = "mo_tog";
-        #binding-cells = <2>;
-        flavor = "hold-preferred";
-        tapping-term-ms = <200>;
-        bindings = <&mo>, <&tog>;
-   };
-
     tog_mo: tog_mo_fancy {
         compatible = "zmk,behavior-mod-morph";
         label = "Fancy Toggle";
@@ -61,7 +52,7 @@
         &kp TAB      &kp Q      &kp W           &kp E            &kp R   &kp T            &sk LC(LA(LS(LCMD)))                                                                                     &none   &kp Y             &kp U              &kp I    &kp O          &kp P         &kp BSLH
       &kp LCTRL      &kp A      &kp S           &kp D            &kp F   &kp G                           &none  &kp LEFT_COMMAND       &kp LALT                  &kp RIGHT_CONTROL   &kp RCMD      &none   &kp H             &kp J              &kp K    &kp L  &kp SEMICOLON          &kp SQT
  &kp LEFT_SHIFT      &kp Z      &kp X           &kp C            &kp V   &kp B                                                    &kp LA(SLASH)                            &kp TAB                         &kp N             &kp M          &kp COMMA  &kp DOT      &kp SLASH  &kp RIGHT_SHIFT
-          &mo_tog 2 2 &kp EQUAL  &kp TILDE  &kp LEFT_ARROW  &kp RIGHT_ARROW                              &kp ESCAPE     &kp BACKSPACE   &kp LEFT_ALT                      &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp UP       &kp DOWN            &mo 2
+          &tog_mo  &kp EQUAL  &kp TILDE  &kp LEFT_ARROW  &kp RIGHT_ARROW                              &kp ESCAPE     &kp BACKSPACE   &kp LEFT_ALT                      &kp RIGHT_ALT  &kp ENTER  &kp SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp UP       &kp DOWN            &tog_mo
             >;
         };
 
