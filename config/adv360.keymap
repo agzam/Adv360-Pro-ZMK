@@ -42,6 +42,13 @@
         bindings = <&mo>, <&tog>;
    };
 
+    tog_mo: tog_mo_fancy {
+        compatible = "zmk,behavior-mod-morph";
+        label = "Fancy Toggle";
+        #binding-cells = <0>;
+        bindings = <&mo 2>, <&tog 2>;
+        mods = <(MOD_LGUI|MOD_RGUI)>;
+    };
   };
 
     keymap {
